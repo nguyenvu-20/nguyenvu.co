@@ -1,0 +1,49 @@
+.home {
+    width: 100%;
+    height: 990px;
+    /* flex-shrink: 0;  */
+    background-image: url("/images/Background.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.content {
+    padding-top: 30px;
+    padding-left: 260px;
+    padding-right: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herobtn {
+    display: flex;
+}
+
+.hireme {
+    display: flex;
+    padding: 28px 67px 29px 67px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 72px;
+    background: #263238;
+    max-width: 101px;
+    max-height: 86px;
+    color: #fff;
+    margin-right: 22px;
+}
+.download {
+    display: flex;
+    padding: 28px 67px 29px 67px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 72px;
+    background: #FFF;
+    max-width: 151px;
+    max-height: 86px;
+    color: #000000;
+    margin-right: 22px;
+}

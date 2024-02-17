@@ -2,7 +2,7 @@
 
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family:monospace;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -15,6 +15,16 @@ header {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
 }
 
 nav ul {
@@ -35,7 +45,8 @@ nav ul li a {
 
 /* Main section styles */
 main {
-    padding: 20px;
+    /* padding: 20px; */
+    /* max-width: 1920px; */
 }
 
 section {
@@ -50,7 +61,11 @@ h1, h2, h3 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #e7e7e7;
     color: #fff;
+    margin-left: ;
 }
 
+p {
+    padding: 0px;
+}
